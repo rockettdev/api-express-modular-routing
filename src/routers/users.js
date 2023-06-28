@@ -21,7 +21,7 @@ let id = 4
 
 // Get all users
 router.get('/', (req, res) => {
-    res.status(200).send({users})
+    res.status(200).json({users})
 })
 
 // Get user by ID
