@@ -26,7 +26,7 @@ const films = [
 
   let id = 5
 
-  // Get all users
+  // Get all films
 router.get('/', (req, res) => {
     res.status(200).json({films})
 })

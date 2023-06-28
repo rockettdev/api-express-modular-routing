@@ -81,7 +81,7 @@ router.delete('/:id', (req, res) => {
       return res.status(200).send({ book: searchResult })
 })
 
-// Uodate user by id
+// Uodate book by id
 router.put('/:id', (req, res) => {
     const id = Number(req.params.id)
 
